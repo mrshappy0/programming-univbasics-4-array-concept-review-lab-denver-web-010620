@@ -23,7 +23,6 @@ def find_max_value(array)
     else 
       counter +=1
     end
-    p n 
   end
 end
 
