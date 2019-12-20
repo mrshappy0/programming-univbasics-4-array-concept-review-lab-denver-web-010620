@@ -17,6 +17,9 @@ def find_max_value(array)
   n = 0
   array.length.times do
     if array[counter] > n
+      n = counter
+    end
+    return n 
 end
 
 def find_min_value(array)
