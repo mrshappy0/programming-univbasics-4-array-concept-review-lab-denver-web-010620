@@ -29,7 +29,7 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  n = 0 
+  n = 1001 
   counter = 0 
   
   while counter < array.length do
