@@ -16,7 +16,7 @@ def find_max_value(array)
   counter = 0
   n = 0
   
-  array.length.times do |counter|
+  array.length.times + 1 do |counter|
     if array[counter] > n
       n = array[counter]
     end
