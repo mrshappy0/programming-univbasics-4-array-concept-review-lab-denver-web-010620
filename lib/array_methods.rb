@@ -23,8 +23,8 @@ def find_max_value(array)
     else 
       counter +=1
     end
-    p n 
   end
+  return n
 end
 
 def find_min_value(array)
