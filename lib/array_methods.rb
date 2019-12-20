@@ -16,9 +16,10 @@ def find_max_value(array)
   counter = 0
   n = 0
   
-  array.length.times do
-    if array[counter] >= n
+  while counter < array.length do
+    if array[counter] > n
       n = array[counter]
+      counter +=1
     end
   end
 end
